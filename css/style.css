@@ -40,11 +40,15 @@ h3 {
   font-size: 2.5rem;
 }
 
-h4,
-h5 {
+h4 {
   font-size: 3rem;
   font-family: 'Lato', sans-serif;
   color: #515151;
+}
+
+h5 {
+  font-size: 3rem;
+  font-family: 'MuseoModerno', cursive;
 }
 
 .main-head ul,
@@ -264,6 +268,7 @@ nav a:hover {
 
 .projects h2 {
   margin: 5rem;
+  text-decoration: underline;
 }
 
 .header-projects {
@@ -322,6 +327,7 @@ nav a:hover {
   padding-bottom: 1em;
   padding-top: 1em;
   text-align: center;
+  text-decoration: underline;
 }
 
 .header-about {
@@ -352,6 +358,7 @@ nav a:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 20rem;
           flex: 1 1 20rem;
+  width: 20%;
 }
 
 .about-description {
@@ -475,7 +482,7 @@ footer ul {
           flex-direction: row;
 }
 
-footer h4 {
+footer h5 {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
