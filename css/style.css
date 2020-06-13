@@ -155,8 +155,8 @@ nav ul {
   padding-bottom: 2rem;
   background: -webkit-gradient(linear, left top, right top, from(#b391df), to(#7b38d3));
   background: linear-gradient(left, #b391df, #7b38d3);
-  background-clip: text;
-  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: inline-block;
   line-height: 0.8;
 }
