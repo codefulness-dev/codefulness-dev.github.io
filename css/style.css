@@ -18,6 +18,7 @@ html {
 
 h1 {
   font-size: 3rem;
+  font-family: 'MuseoModerno', cursive;
 }
 
 li,
@@ -27,15 +28,12 @@ input,
 p,
 a {
   font-size: 2.5rem;
-}
-
-a:hover {
-  background: #7C39D3;
-  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 h2 {
   font-size: 4rem;
+  font-family: 'Jura', sans-serif;
 }
 
 h3 {
@@ -45,6 +43,8 @@ h3 {
 h4,
 h5 {
   font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  color: #515151;
 }
 
 .main-head ul,
@@ -129,6 +129,11 @@ nav ul {
           flex: 1 1 40rem;
 }
 
+nav a:hover {
+  background: #7C39D3;
+  color: white;
+}
+
 .intro {
   min-height: 90vh;
   width: 90%;
@@ -152,7 +157,7 @@ nav ul {
 
 .intro h2 {
   font-size: 8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   background: -webkit-gradient(linear, left top, right top, from(#b391df), to(#7b38d3));
   background: linear-gradient(left, #b391df, #7b38d3);
   -webkit-background-clip: text;
@@ -166,8 +171,12 @@ nav ul {
   padding: 2rem 0rem;
 }
 
+.intro h4 {
+  padding-bottom: 3rem;
+}
+
 .intro p {
-  margin: 2rem;
+  margin-top: 2rem;
   color: #2c2c2c;
 }
 
@@ -416,7 +425,7 @@ nav ul {
 }
 
 .form-section form button {
-  width: 100%;
+  min-width: 100%;
   padding: 1em;
   border-radius: 2em;
   cursor: pointer;
