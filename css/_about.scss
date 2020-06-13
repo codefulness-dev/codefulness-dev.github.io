@@ -1,0 +1,39 @@
+.about {
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    @include flex(space-between, center, row);
+    // text-align: center;
+    flex-wrap: wrap;
+    h2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    }
+  }
+  .header-about {
+    background: rgb(40, 40, 41);
+    min-height: 20vh;
+    @include flex (center, center, center);
+    filter: brightness(120%);
+  }
+
+  .header-about-title {
+
+color: white;
+  }
+  .about-image
+   {
+    flex: 1 1 20rem;
+  }
+  
+  .about-description {
+     flex: 1 1 20rem;
+     margin: 5rem;
+       }
+
+       .skills {
+           display: flex;
+           justify-content: space-between;
+           margin-left: 3em;
+       }

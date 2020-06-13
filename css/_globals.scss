@@ -1,0 +1,64 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.opening {
+    animation: 1s ease;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: $header1;
+   
+}
+
+li,
+button,
+label,
+input,
+p,
+a {
+    font-size: $text;
+}
+
+
+a:hover
+{
+background: #7C39D3;
+color: white;
+
+}
+h2 {
+    font-size: $header2;
+}
+
+h3 {
+    font-size: $header3;
+}
+h4,
+h5 {
+    font-size: $header4;
+}
+
+
+
+.main-head ul,
+footer ul {
+    list-style: none;
+}
+a {
+text-decoration: none;
+color: $gray-text;
+}
+footer a {
+text-decoration: none;
+color: white;
+}
+

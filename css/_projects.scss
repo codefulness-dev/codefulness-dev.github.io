@@ -1,0 +1,27 @@
+.projects {
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    @include flex(space-between, center, row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2 {
+      margin: 5rem;
+    }
+  }
+  .header-projects {
+    background: rgb(40, 40, 41);
+    min-height: 20vh;
+    @include flex (center, center, center);
+    filter: brightness(120%);
+  }
+
+  .header-projects-title {
+
+color: white;
+  }
+  .travelly,
+  .elena {
+    flex: 1 1 20rem;
+  }
+  
