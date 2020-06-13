@@ -20,6 +20,11 @@ $gray-text: #2c2c2c;
   @import "about";
   @import "contact";
   @import "footer";
+
+
+  * {
+    // outline: 2px solid red;
+  }
   
   @media screen and (max-width: 1332px) {
     html {
