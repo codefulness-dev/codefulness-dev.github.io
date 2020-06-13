@@ -31,12 +31,11 @@ nav {
   h2 {
     font-size: 8rem;
     padding-bottom: 2rem;
-    background: $gradient;
+    -webkit-background: $gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     line-height: 0.8;
- 
   }
   h3 {
     font-size: 6rem;
