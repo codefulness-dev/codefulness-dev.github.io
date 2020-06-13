@@ -20,6 +20,13 @@ nav {
     @include flex(space-around, center, row);
     flex: 1 1 40rem;
   }
+
+a:hover
+{
+background: #7C39D3;
+color: white;
+
+}
 }
 
 .intro {
@@ -30,7 +37,7 @@ nav {
   @include flex(space-between, center, row);
   h2 {
     font-size: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     background: $gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,8 +48,11 @@ nav {
     font-size: 6rem;
     padding: 2rem 0rem;
   }
+  h4 {
+  padding-bottom: 3rem;
+  }
   p {
-    margin: 2rem;
+    margin-top: 2rem;
     color: $gray-text;
   }
 }
