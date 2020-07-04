@@ -224,28 +224,6 @@ nav a:hover {
           transform-origin: bottom;
 }
 
-@-webkit-keyframes me {
-  from {
-    -webkit-transform: rotateZ(-1deg);
-            transform: rotateZ(-1deg);
-  }
-  to {
-    -webkit-transform: rotateZ(1deg);
-            transform: rotateZ(1deg);
-  }
-}
-
-@keyframes me {
-  from {
-    -webkit-transform: rotateZ(-1deg);
-            transform: rotateZ(-1deg);
-  }
-  to {
-    -webkit-transform: rotateZ(1deg);
-            transform: rotateZ(1deg);
-  }
-}
-
 .projects {
   width: 90%;
   margin: auto;
