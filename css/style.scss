@@ -26,7 +26,7 @@ $gray-text: #2c2c2c;
     // outline: 2px solid red;
   }
   
-  @media screen and (min-width: 1332px) {
+  @media screen and (max-device-width: 1478px) {
     html {
       font-size: 53%;
     }
@@ -34,14 +34,18 @@ $gray-text: #2c2c2c;
       display: none;
     }
     svg {
-      width: 80%;
+      width: 100%;
     }
     nav {
       width: 100%;
     }
+
+    .skills ul {
+      margin: 2rem;
+    }
   }
   
-  @media screen and (max-width: 754px) {
+  @media screen and (max-width: 876px) {
     html {
       font-size: 45%;
     }
@@ -75,6 +79,8 @@ $gray-text: #2c2c2c;
         margin: 2rem;
       }
     }
+
+  
     .elena,
     .travelly {
       flex: 1 1 50rem;
@@ -87,5 +93,7 @@ $gray-text: #2c2c2c;
       padding: 0rem;
       width: 100%;
     }
+
+  
   }
   
