@@ -3,8 +3,6 @@
 const nav = document.querySelector('.nav-links');
 // grab burger spans
 const burger = document.querySelector('.burger');
-// grab links
-const links = nav.querySelectorAll("a");
 
 // Event Listner + If click on burger than function trigger toggle
 burger.addEventListener('click', () => {
@@ -15,13 +13,13 @@ burger.addEventListener('click', () => {
 });
 
 
-//grab links and for each link add EventListener
+// //grab links and for each link add EventListener
 
-links.forEach(link => {
-    link.addEventListener('click', () => {
-        nav.classList.toggle("nav-open");
-        //change color
-        burger.classList.toggle("toggle");
+// links.forEach(link => {
+//     link.addEventListener('click', () => {
+//         nav.classList.toggle("nav-open");
+//         //change color
+//         burger.classList.toggle("toggle");
 
-    });
-});
+//     });
+// });
