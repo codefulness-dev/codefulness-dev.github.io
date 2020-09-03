@@ -11,7 +11,7 @@ burger.addEventListener('click', () => {
     //add toggle
     nav.classList.toggle("nav-open");
     // animate burger by taking toggle class from css
-    burger.classList.toggle("toggle");
+    // burger.classList.toggle("toggle");
 });
 
 
