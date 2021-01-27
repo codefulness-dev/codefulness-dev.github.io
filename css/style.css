@@ -269,6 +269,7 @@ nav a:hover {
           flex-direction: center;
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
+  padding-bottom: 2em;
 }
 
 .header-projects-title {
