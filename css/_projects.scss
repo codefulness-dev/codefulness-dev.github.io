@@ -15,6 +15,7 @@
     min-height: 20vh;
     @include flex (center, center, center);
     filter: brightness(120%);
+    padding-bottom: 2em;
   }
 
   .header-projects-title {
