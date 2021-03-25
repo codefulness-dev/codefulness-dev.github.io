@@ -347,7 +347,7 @@ nav a:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 20rem;
           flex: 1 1 20rem;
-  padding: 5em;
+  padding: 10em;
 }
 
 .about-description p {
