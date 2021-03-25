@@ -32,6 +32,10 @@ color: white;
   .about-description {
      flex: 1 1 20rem;
      margin: 5rem;
+
+     p {
+       line-height: 1.2;
+     }
        }
 
        .skills {
