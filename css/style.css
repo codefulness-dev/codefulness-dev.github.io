@@ -349,6 +349,10 @@ nav a:hover {
   margin: 5rem;
 }
 
+.about-description p {
+  line-height: 1.2;
+}
+
 .skills {
   display: -webkit-box;
   display: -ms-flexbox;
