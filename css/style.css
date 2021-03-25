@@ -341,6 +341,7 @@ nav a:hover {
           flex: 0.5 1 20rem;
   width: 20%;
   height: 20%;
+  outline: 2px solid green;
 }
 
 .about-description {
