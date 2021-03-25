@@ -336,9 +336,9 @@ nav a:hover {
 }
 
 .about-image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 20rem;
-          flex: 1 1 20rem;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5 1 20rem;
+          flex: 0.5 1 20rem;
   width: 20%;
   height: 20%;
 }
