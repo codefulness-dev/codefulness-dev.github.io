@@ -363,6 +363,7 @@ nav a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-left: 4em;
+  max-width: 20%;
 }
 
 .form-section {
